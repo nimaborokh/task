@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            table {
+                width: 40%;
+                border-collapse: collapse;
+            }
+
+            table,
+            td {
+                border: 2px solid black;
+            }
+
+            td {
+                padding: 5px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <table id="table">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td><input id="checkAll" type="checkbox" onclick="check()" /></td>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+        <button onclick="showId()">id</button>
+        <script src="./min.js"></script>
+    </body>
+</html>
